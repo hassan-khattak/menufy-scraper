@@ -32,7 +32,7 @@ A Python-based web scraper that extracts restaurant and menu data from Menufy or
 
 2. Set up a virtual environment (optional but recommended):
    ```bash
-   python -m venv venv
+   python3 -m venv venv
    source venv/bin/activate  # For Linux/Mac
    venv\Scripts\activate     # For Windows
    ```
@@ -51,13 +51,13 @@ A Python-based web scraper that extracts restaurant and menu data from Menufy or
 To run the scraper locally, execute the following command:
 
 ```bash
-python scraper.py --url <MENUFY_URL> --output <OUTPUT_JSON>
+python3 scraper.py --url <MENUFY_URL> --output <OUTPUT_JSON>
 ```
 
 **Example:**
 
 ```bash
-python scraper.py --url https://coralspring.kuboasianstreetfood.com/ --output output.json
+python3 scraper.py --url https://coralspring.kuboasianstreetfood.com/ --output output.json
 ```
 
 This will scrape the data and save it to `output.json`.
@@ -77,7 +77,7 @@ To test the Lambda handler locally, use the provided test script:
 
 2. Run the local test script:
    ```bash
-   python test_lambda_local.py
+   python3 test_lambda_local.py
    ```
 
 ---
@@ -165,7 +165,7 @@ The scraper outputs a JSON file in the following format:
 To run the unit tests, execute:
 
 ```bash
-python -m unittest test_scraper.py
+python3 -m unittest test_scraper.py
 ```
 
 ---
