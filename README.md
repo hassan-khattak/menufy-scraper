@@ -26,7 +26,7 @@ A Python-based web scraper that extracts restaurant and menu data from Menufy or
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/hassan-khattak/menufy-scraper.git
    cd menufy_scraper
    ```
 
